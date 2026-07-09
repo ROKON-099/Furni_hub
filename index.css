@@ -1,0 +1,121 @@
+
+/*==============================
+Google Font
+===============================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+}
+
+/*==============================
+Navbar
+===============================*/
+
+.custom-navbar{
+    padding:18px 0;
+    background:#3b5d50;
+}
+
+.logo-title{
+    font-size:32px;
+    font-weight:800;
+    color:white;
+    text-decoration:none;
+}
+
+.logo-title span{
+    color:rgba(255, 255, 255, 0.764);
+}
+
+.nav-menu .nav-link{
+
+    font-size:12px;
+    font-weight:500;
+    color:white;
+    margin:0 14px;
+    transition:.3s;
+
+}
+
+ .nav-link:hover{
+    color:#F59E0B;
+}
+
+.nav-menu .nav-link.active{
+    color:#F59E0B;
+}
+
+
+
+.signup-btn{
+
+    text-decoration:none;
+    color:white;
+
+    padding:12px 28px;
+    border-radius:8px;
+
+    font-weight:600;
+
+   
+}
+
+
+
+
+
+.cart-btn{
+
+    width:50px;
+    height:50px;
+    color:white;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:20px;
+
+
+
+}
+
+
+
+
+
+/*==============================
+Responsive
+===============================*/
+
+@media(max-width:991px){
+
+.nav-menu{
+
+    margin-top:25px;
+    text-align:center;
+
+}
+
+.nav-menu .nav-link{
+
+    margin:10px 0;
+
+}
+
+.navbar-action{
+
+    justify-content:center;
+
+    margin-top:25px;
+    padding-bottom:20px;
+
+}
+
+}
