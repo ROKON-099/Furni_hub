@@ -486,3 +486,204 @@ Responsive
 }
 
 }
+
+/*==========================
+Why Choose Us
+===========================*/
+/* ==========================
+Why Choose Section
+========================== */
+
+/* ==========================
+Why Choose Section
+========================== */
+
+.why-choose-section{
+    padding:100px 0;
+}
+
+/* Row */
+
+.why-row{
+    align-items:center;
+}
+
+/* Left */
+
+.left-content{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.left-content-inner{
+    max-width:540px;
+}
+
+/* Right */
+
+.right-content{
+    display:flex;
+    justify-content:flex-end;
+}
+
+/* Title */
+
+.section-title{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+/* Description */
+
+.section-description{
+    margin-bottom:20px;
+    color:#6c757d;
+    line-height:1.8;
+}
+
+/* Image */
+
+.image-wrapper{
+    position:relative;
+    max-width:500px;
+    width:100%;
+}
+.feature-title
+{
+    font-size:medium;
+}
+.feature-icon{
+    width:32px;
+    margin:10px 0px;
+}
+.feature-description{
+    font-size:12px;
+
+
+}
+.main-image{
+    width:100%;
+    display:block;
+    border-radius:20px;
+}
+
+.dots-pattern{
+    position:absolute;
+    top:-35px;
+    left:-35px;
+    width:180px;
+    z-index:-1;
+}
+
+/* ==========================
+Large Device (992px)
+========================== */
+
+@media (max-width:991.98px){
+
+    .why-choose-section{
+        padding:80px 0;
+    }
+
+    .left-content,
+    .right-content{
+        justify-content:center;
+    }
+
+    .left-content-inner{
+        max-width:100%;
+        text-align:center;
+    }
+
+    .image-wrapper{
+        max-width:550px;
+        margin-top:40px;
+    }
+
+    .dots-pattern{
+        width:160px;
+        top:-25px;
+        left:-25px;
+    }
+
+}
+
+/* ==========================
+Tablet (768px)
+========================== */
+
+@media (max-width:767.98px){
+
+    .why-choose-section{
+        padding:70px 0;
+    }
+
+    .section-title{
+        font-size:34px;
+    }
+
+    .section-description{
+        margin-bottom:35px;
+    }
+
+    .image-wrapper{
+        max-width:420px;
+    }
+
+    .dots-pattern{
+        width:130px;
+        top:-20px;
+        left:-20px;
+    }
+     .left-content,
+    .right-content{
+        justify-content:center;
+    }
+
+}
+
+/* ==========================
+Mobile (576px)
+========================== */
+
+@media (max-width:575.98px){
+
+    .left-content{
+        display:flex;
+        justify-content:center;
+    }
+
+    .left-content-inner{
+        width:100%;
+        max-width:360px;
+    }
+
+    .section-title,
+    .section-description{
+        text-align:center;
+    }
+
+    .right-content{
+        display:flex;
+        justify-content:center;
+        margin-top:40px;
+    }
+
+    .image-wrapper{
+        max-width:320px;
+    }
+     .feature-card{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .feature-icon{
+        width:32px;
+        margin-bottom:12px;
+    }
+
+}
