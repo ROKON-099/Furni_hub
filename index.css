@@ -687,3 +687,123 @@ Mobile (576px)
     }
 
 }
+custom-section {
+            padding: 80px 0;
+        }
+
+        /* --- বাম পাশের ইমেজ কোলাজ সিএসএস --- */
+        .image-collage-wrapper {
+            position: relative;
+            padding: 40px 20px;
+        }
+
+        /* ডট প্যাটার্ন */
+        .dot-pattern {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-image: radial-gradient(#6c7a72 2px, transparent 2px);
+            background-size: 15px 15px;
+            z-index: 1;
+        }
+
+        .img-main {
+            width: 75%;
+            border-radius: 16px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .img-top-right {
+            position: absolute;
+            top: 0;
+            right:-35px;
+            width: 32%;
+            border-radius: 16px;
+            z-index: 4;
+            margin-top:40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .img-bottom-right {
+            position: absolute;
+            bottom: 0;
+            right: 5%;
+            width: 42%;
+            border-radius: 16px;
+            z-index: 4;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        /* --- ডান পাশের টেক্সট সিএসএস --- */
+        .content-side {
+            padding-left: 50px;
+        }
+
+        .main-heading {
+            color: #212529;
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .description {
+            color: #6c757d;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        /* ফিচার লিস্টের কাস্টম ডট আইকন */
+        .feature-item {
+            font-size: 12px;
+            color: #495057;
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .feature-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 100%;
+            max-height: 10px;
+            border: 2px solid #5a6e65;
+            border-radius: 50%;
+        }
+
+        .btn-explore {
+            background-color: #1c2b24;
+            color: #ffffff;
+            padding: 12px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .btn-explore:hover {
+            background-color: #2c4237;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        
+        @media (max-width: 991.98px) {
+            .custom-section {
+                padding: 40px 0;
+            }
+            .content-side {
+                margin-top: 50px;
+                padding-left: 0;
+            }
+            .main-heading {
+                font-size: 2rem;
+            }
+        }
+        
