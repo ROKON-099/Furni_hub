@@ -16,6 +16,7 @@ A modern furniture landing page built with HTML, CSS, and JavaScript.
 
 - HTML5
 - CSS3
+-Bootstrap5
 - JavaScript
 
 # live link: https://rokon-099.github.io/Furni_hub/
